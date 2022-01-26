@@ -1,0 +1,1304 @@
+@charset "utf-8";
+/*          google fonts          */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+.slick-prev:before, .slick-next:before {opacity: 1;}
+
+#story .ContentsBox,#character .ContentsBox,#special .ContentsBox,#books .ContentsBox {
+	padding: 380px 100px 300px;
+}
+
+
+
+/*==============    top    ==============*/
+.kvBox {
+	position: relative;
+}
+.kvBox .kv img {
+	width: 100%;
+}
+.promoBox {
+	position: absolute;
+	bottom: 31.5%;
+	left: 9.4%;
+}
+.movieBox {
+	position: absolute;
+	bottom: 14%;
+	right: 7.5%;
+}
+.movieBox a img {
+	border-radius: 100%;
+	outline: 4px solid #fff;
+}
+.movieBox a::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 22.5px 0 22.5px 39.0px;
+	border-color: transparent transparent transparent #ffffff;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+
+
+/*==============    news    ==============*/
+#news {
+	background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+	background-position: top;
+	margin-top: -150px;
+}
+#news .ContentsBox {
+	padding: 300px 0;
+}
+.topicsBox {
+	width: 1000px;
+	margin: auto;
+}
+.topicsBox li {
+	padding: 0 20px;
+}
+
+#news .slick-prev, .slick-next {
+	width: 40px;
+	height: 40px;
+	background: #15b5b8;
+	opacity: .4;
+	border-radius: 100%;
+}
+
+#news.slick-prev:hover, .slick-next:hover {
+	background: #15b5b8;
+}
+
+#news .slick-prev::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	-webkit-transform: rotate(-135deg) skew(-15deg, -15deg);
+	transform: rotate(-135deg) skew(-15deg, -15deg);
+}
+#news .slick-next::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	right: 40%;
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	-webkit-transform: rotate(45deg) skew(-15deg, -15deg);
+	transform: rotate(45deg) skew(-15deg, -15deg);
+}
+#news .slick-prev {
+	left: -45px;
+}
+#news .slick-next {
+	right: -45px;
+}
+
+
+.newsBox {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: space-between; justify-content: space-between;
+	padding: 120px 30px 0;
+}
+.newsList {
+	width: 750px;
+	background: rgba(250,250,250,.3);
+	border: 1px solid #fff;
+	position: relative;
+}
+.newsList .decoTL {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 0;
+	border-color: #fff transparent transparent transparent;
+}
+.newsList .decoTR {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #fff transparent transparent;
+	right: 0;
+}
+.newsList .decoBL {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 0 10px;
+	border-color: transparent transparent transparent #fff;
+	bottom: 0;
+}
+.newsList .decoBR {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 10px 10px;
+	border-color: transparent transparent #fff transparent;
+	bottom: 0;
+	right: 0;
+}
+
+.newsData {
+	overflow-y: auto;
+	margin: 40px 30px 20px 50px;
+	height: 175px;
+	scrollbar-color: #44c5c7 #fff;
+	scrollbar-width: thin;
+}
+.newsData::-webkit-scrollbar {
+	width: 8px;
+}
+.newsData::-webkit-scrollbar-track {
+	background: #fff;
+}
+.newsData::-webkit-scrollbar-thumb {
+	background:#44c5c7;
+}
+.newsData li {
+	display: -webkit-flex; display: flex;
+	margin: 0px 50px 20px 0;
+	font-size: 1.7rem;
+	line-height: 1.8;
+	font-size: 1.8rem;
+}
+.newsData li time {
+	padding-right: 30px;
+	color: #369b9d;
+}
+.newsData li a {
+	display: block;
+}
+
+/*==============    information    ==============*/
+#introduction {
+	background: #fff;
+	margin-top: -150px;
+}
+#introduction .ContentsBox {
+	padding: 300px 0 180px;
+}
+.introductionTitleBox {
+	padding: 0 100px;
+	margin-bottom: 50px;
+}
+.introTxtBox {
+	text-align: center;
+}
+.introTxtBox .txt01 {
+	padding: 30px 0;
+}
+.introTxtBox .txt02 {
+	padding: 80px 0;
+	position: relative;
+}
+.introTxtBox .txt02 .txt {
+	position: relative;
+	left: -17%;
+}
+.introTxtBox .txt02 .img {
+	position: absolute;
+	right: 10%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: -1;
+}
+.introTxtBox .txt03 {
+	padding-top: 30px;
+}
+.introTxtBox .txt04 {
+	padding: 120px 0;
+	margin: -15px 0 -35px;
+	background: url(/books/mare/img/introduction/introImg02.png) no-repeat;
+	background-position: 48% 20%;
+	background-size: auto 90%;
+}
+.introTxtBox .txt05 {
+	padding-bottom: 50px;
+}
+.introTxtBox .txt06 {
+	padding: 130px 0;
+	background: url(/books/mare/img/introduction/introImg03.jpg) no-repeat center;
+}
+
+/*==============    story    ==============*/
+#story {
+	background: url(/books/mare/img/story/story_bg_pc.jpg) no-repeat center;
+	background-size: cover;
+}
+#story {
+	margin-top: -150px;
+}
+.storyBox {
+	width: 700px;
+	position: relative;
+}
+.storyBox .txt {
+	padding: 60px 0 70px;
+	font-size: 1.8rem;
+	line-height: 4.8rem;
+}
+.storyTxtImg {
+	position: absolute;
+	top: -100px;
+	right: -160px;
+}
+.storyMovie {
+	position: relative;
+	display: inline-block;
+}
+.storyMovie::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 22.5px 0 22.5px 39.0px;
+	border-color: transparent transparent transparent #ffffff;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+
+/*==============    character    ==============*/
+#character {
+	margin-top: -150px;
+}
+.characterList {
+	padding-top: 50px;
+	width: 350px;
+	
+}
+.characterList img {
+	margin: 0 0 0 auto;
+}
+.characterBox {
+	position: relative;
+}
+.characterTxtBox {
+	width: 592px;
+	position: absolute;
+	z-index: 1;
+	background: url(/books/mare/img/character/characterBg02.png) no-repeat;
+	right: 50px;
+	top: 170px;
+	padding: 150px 0 200px;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.characterTxtBox#mare {
+	background: url(/books/mare/img/character/characterBg01.png) no-repeat;
+}
+.characterTxtBox .txtBox {
+	
+}
+.characterNav {
+	display: -webkit-flex; display: flex;
+	-webkit-justify-content: end;
+	justify-content: end;
+	margin-right: -55px;
+}
+.characterNav li {
+	cursor: pointer;
+	border-radius: 100%;
+	padding-left: 10px;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.characterNav li img {
+	border-radius: 100%;
+}
+#character  #mare .mare,#character  #takami .takami,#character  #shino .shino,#character  #ito .ito {
+	display: block;
+}
+#character .txtBox {
+	width: 343px;
+	margin: auto;
+}
+#character .txtBox.on {
+	display: none;
+}
+#character .txtBox .name {
+	font-size: 5.4rem;
+}
+/*#character .txtBox#mare .name {
+	font-size: 6.4rem;
+}*/
+#character .txtBox .name .no {
+	opacity: 0;
+	pointer-events: none;
+}
+#character .txtBox .txt {
+	font-size: 1.6rem;
+	border-top: 1px solid #80d5da;
+	border-bottom: 1px solid #80d5da;
+	line-height: 3.6rem;
+	position: relative;
+	padding: 5px 0;
+}
+#character .txtBox .txt::before {
+	content: "";
+	position: absolute;
+	background: #80d5da;
+	width: 5px;
+	height: 5px;
+	top: -3px;
+	left: 50%;
+	transform: rotate(45deg);
+}
+#character .txtBox .txt::after {
+	content: "";
+	position: absolute;
+	background: #80d5da;
+	width: 5px;
+	height: 5px;
+	bottom: -3px;
+	left: 50%;
+	transform: rotate(45deg);
+}
+#character .slick-prev, #character .slick-next {
+	width: 40px;
+	height: 40px;
+	background: #15b5b8;
+	opacity: .4;
+	border-radius: 100%;
+	z-index: 5;
+}
+#character .slick-prev {
+	left: -18%;
+}
+#character .slick-next {
+	right: -203%;
+}
+#character.slick-prev:hover, .slick-next:hover {
+	background: #15b5b8;
+}
+
+#character .slick-prev::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	-webkit-transform: rotate(-135deg) skew(-15deg, -15deg);
+	transform: rotate(-135deg) skew(-15deg, -15deg);
+}
+#character .slick-next::before {
+	content: "";
+	position: absolute;
+	top: 30%;
+	right: 40%;
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	-webkit-transform: rotate(45deg) skew(-15deg, -15deg);
+	transform: rotate(45deg) skew(-15deg, -15deg);
+}
+#character .txtBox .name rt {
+	font-size: 1.8rem;
+}
+
+
+
+
+
+/*==============    special    ==============*/
+#special {
+	background: url(/books/mare/img/patternBg.png) ,linear-gradient(130deg,#6dcfe3 0%,#84e3f0 40%,#5ad6d2 100%);
+	background-position: top;
+	margin-top: -150px;
+}
+
+.specialTitle {
+	color: #fff;
+	font-size: 2.7rem;
+}
+.specialTitle span {
+	border-color: #fff;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	position: relative;
+}
+.specialTitle span::before {
+	content: "";
+	position: absolute;
+	background: #fff;
+	width: 5px;
+	height: 5px;
+	top: -3px;
+	left: 50%;
+	transform: rotate(45deg);
+}
+.specialTitle span::after {
+	content: "";
+	position: absolute;
+	background: #fff;
+	width: 5px;
+	height: 5px;
+	bottom: -3px;
+	left: 50%;
+	transform: rotate(45deg);
+}
+
+.specialContents {
+	padding-top: 70px;
+}
+.specialContents .preTitle {
+	font-size: 2.2rem;
+	margin-bottom: 30px;
+}
+
+.dlItem {
+	padding: 60px 0;
+}
+.thumb {
+	margin-bottom: 20px;
+}
+.DLbutton {
+	position: relative;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 40px;
+	display: inline-block;
+	-webkit-transition: .3s ease-out; transition: .3s ease-out;
+	background: rgba(28,171,173,.3);
+	font-size: 1.8rem;
+}
+
+.iconList {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.iconList li {
+	padding-right: 60px;
+	padding-bottom: 20px;
+}
+.iconList li .thumb {
+	width: 200px;
+}
+.snsHeader {
+	padding-top: 40px;
+}
+.WallpaperBox .wpItem {
+	padding-right: 65px;
+}
+.WallpaperSP .thumb img {
+	width: 158px;
+}
+.WallpaperBox .use {
+	margin-bottom: 10px;
+}
+.WallpaperPC .use {
+	margin-left: 15px;
+}
+.WallpaperSP .use {
+	text-align: center;
+}
+.WallpaperBox .thumb {
+	margin-bottom: 10px;
+}
+.WallpaperSP .DLbutton {
+	padding: 10px 15px;
+}
+
+
+/*==============    books    ==============*/
+#books {
+	margin-top: -150px;
+}
+
+.booksBox {
+	padding-top: 70px;
+}
+.booksBox .link {
+	font-size: 2.2rem;
+	text-align: center;
+	padding: 20px 0;
+}
+.booksBox .link li {
+	margin: 20px 0;
+	border: 1px solid #030a45;
+}
+.booksBox .link li a {
+	color: #030a45;
+	display: block;
+	padding: 20px 0;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.booksRight {
+	width: 430px;
+	line-height: 1.8;
+}
+.booksRight .title {
+	
+}
+.booksRight .overview {
+	padding-top: 20px;
+	font-size: 2.2rem;
+}
+.booksRight .sonota {
+	margin-top: 70px;
+	border: 1px solid #030a45;
+	padding: 30px 20px;
+	position: relative;
+}
+.booksRight .sonota .title {
+	font-size: 2.2rem;
+}
+.booksRight .sonota .title.top {
+	margin-top: 30px;
+}
+.booksRight .sonota p {
+	font-size: 1.8rem;
+}
+.sonota .decoTL {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 0;
+	border-color: #030a45 transparent transparent transparent;
+	top: 0;
+	left: 0;
+}
+.sonota .decoTR {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #030a45 transparent transparent;
+	top: 0;
+	right: 0;
+}
+.sonota .decoBL {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 0 10px;
+	border-color: transparent transparent transparent #030a45;
+	bottom: 0;
+	left: 0;
+}
+.sonota .decoBR {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 10px 10px;
+	border-color: transparent transparent #030a45 transparent;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Media Screen     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          SP          */
+@media screen and (max-width:768px) {
+/*  
++1.2
+  */
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          Site Contents          */
+	
+	
+	#story .ContentsBox,#character .ContentsBox,#special .ContentsBox,#books .ContentsBox {
+		padding: 100px 0 100px;
+	}
+
+	
+	
+/*==============    top    ==============*/
+	
+	.promoBox {
+		bottom: 16%;
+		width: 22%;
+		left: 6%;
+	}
+	.movieBox {
+		bottom: 5%;
+		right: 5%;
+		width: 25%;
+		z-index: 2;
+	}
+	.movieBox a::after {
+		border-width: 15.5px 0 15.5px 27px;
+	}
+	.movieBox a img {
+		outline: 0;
+		border: 4px solid #fff;
+	}
+	
+	
+	
+	
+/*==============    news    ==============*/
+	#news {
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+
+	}
+	#news .ContentsBox {
+		padding: 100px 0;
+	}
+	
+	.topicsBox {
+		width: 100%;
+		max-width: 500px;
+	}
+	.topicsBox li {
+		padding: 0 10vw;
+	}
+	.topicsBox li a img {
+		margin: auto;
+	}
+	#news .slick-prev,#news .slick-next {
+		width: 60px;
+		height: 60px;
+	}
+	#news .slick-prev {
+		z-index: 10;
+		left: -30px;
+	}
+	#news .slick-next {
+		right: -30px;
+	}
+	#news .slick-prev::before {
+		top: 40%;
+		left: 70%;
+		width: 10px;
+		height: 10px;
+	}
+	#news .slick-next::before {
+		top: 40%;
+		right: 70%;
+		width: 10px;
+		height: 10px;
+	}
+	
+	
+	.newsBox {
+		display: block;
+		padding: 50px 0 0;
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+	}
+	.newsList {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.newsData {
+		margin: 20px;
+		height: 150px;
+	}
+	.newsData li {
+		margin: 0 10px 20px 0;
+		line-height: 1.4;
+		font-size: 1.4rem;
+		display: block;
+	}
+	.newsData li time {
+		padding-right: 0;
+	}
+	.newsData li div {
+		padding-top: 5px;
+	}
+	.newsData::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	
+	
+/*==============    information    ==============*/
+	#introduction .ContentsBox {
+		padding: 100px 0 100px;
+	}
+	#introduction {
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+
+	}
+	.introductionTitleBox {
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+		padding: 0 0 30px;
+	}
+	.introTxtBox {
+		max-width: 500px;
+		margin: auto;
+	}
+	.introTxtBox .txt01 {
+		padding: 0 5%;
+		max-width: 500px;
+		position: relative;
+		z-index: 3;
+	}
+	.introTxtBox .txt02 {
+		padding: 50px 5%;
+		text-align: left;
+		z-index: 1;
+	}
+	.introTxtBox .txt02 .txt {
+		width: 50%;
+		left: 0;
+	}
+	.introTxtBox .txt02 .img {
+			right: -20%;
+			width: 80%;
+	}
+	.introTxtBox .txt03 {
+		width: 85%;
+		margin: auto;
+		max-width: 500px;
+		padding: 0;
+	}
+	.introTxtBox .txt04 {
+		padding: 16% 7%;
+		max-width: 500px;
+		background-size: 70%;
+		background-position: 50% 100%;
+		margin: 0;
+	}
+	.introTxtBox .txt05 {
+		width: 85%;
+		margin: auto;
+		max-width: 500px;
+		padding-bottom: 35px;
+	}
+	.introTxtBox .txt06 {
+		padding: 20% 0px;
+		width: 90%;
+		margin: auto;
+		background-size: 100%;
+	}
+	.introTxtBox .txt06 img {
+		width: 65%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+/*==============    story    ==============*/
+	#story {
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	#story .ContentsBox {
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+	}
+	.storyBox {
+		width: 90%;
+		margin: auto;
+	}
+	.storyTxtImg {
+		top: 0;
+		right: 0;
+		text-align: center;
+		width: 20%;
+	}
+	.storyTxtImg img {
+		margin: auto;
+		max-width: 25px;
+		position: relative;
+	}
+	.storyBox .txt {
+		padding: 30px 0 40px;
+		font-size: 1.4rem;
+		line-height: 2;
+		width: 80%;
+	}
+	
+	
+
+	
+	
+/*==============    character    ==============*/
+	#character {
+		background: url(/books/mare/img/character/chara_bg_sp.jpg) no-repeat center;
+		background-size: cover;
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	.characterTitleBox {
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+	}
+	.characterNav {
+		-webkit-justify-content: center;
+		justify-content: center;
+		margin-right: 0;
+		width: 80%;
+		margin: auto;
+		padding-top: 30px;
+	}
+	.characterBox {
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+	}
+	.characterNav li {
+		padding: 0 8px;
+	}
+	.characterTxtBox {
+		width: 100%;
+		right: -20%;
+		background-size: auto 100%;
+		padding: 0;
+		top: 120px;
+		max-height: 500px;
+	}
+	.characterTxtBox#mare {
+		background-size: auto 100%;
+	}
+	.characterList {
+		width: 40%;
+		padding-left: 2vw;
+		z-index: 5;
+		padding-top: 25%;
+	}
+	.slideItem {
+		
+	}
+	.characterList img {
+		margin: 0;
+	}
+	#character .slick-prev,#character .slick-next {
+		width: 60px;
+		height: 60px;
+	}
+	#character .slick-prev {
+		z-index: 10;
+		left: -30px;
+	}
+	#character .slick-next {
+		right: -167%;
+	}
+	#character .slick-prev::before {
+		top: 40%;
+		left: 70%;
+		width: 10px;
+		height: 10px;
+	}
+	#character .slick-next::before {
+		top: 40%;
+		right: 70%;
+		width: 10px;
+		height: 10px;
+	}
+
+	#character .txtBox .name {
+		font-size: 2.4rem;
+	}
+	/*#character .txtBox#mare .name {
+		font-size: 2.8rem;
+	}*/
+	#character .txtBox .name ruby[data-ruby] {
+		position: relative;
+	}
+	#character .txtBox .name ruby[data-ruby]::before {
+		content: attr(data-ruby);
+		position: absolute;
+		left: -2em;
+		top: -5px;
+		right: -2em;
+		text-align: center;
+		font-size: 1rem;
+	}
+	#character .txtBox .name ruby[data-ruby].spno::before {
+		opacity: 0;
+	}
+	#character .txtBox .name rt {
+		display: none;
+	}
+	#character .txtBox .txt {
+		font-size: 1.2rem;
+		line-height: 1.8;
+		padding: 5px 0;
+	}
+	#character .txtBox {
+		width: 45%;
+		margin: 23vw auto;
+		position: relative;
+		left: -5%;
+	}
+	
+/*==============    special    ==============*/
+	#special {
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	#special .ContentsBox {
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+	}
+	.specialContents {
+		text-align: center;
+		padding-top: 30px;
+	}
+	.specialTitle span {
+		padding: 2px 0;
+	}
+	.dlItem {
+		padding: 30px 0;
+	}
+	.specialTitle {
+		font-size: 1.7rem;
+	}
+	.specialContents .preTitle {
+		font-size: 1.4rem;
+		margin-bottom: 15px;
+	}
+	.DLbutton {
+		font-size: 1.2rem;
+		padding: 10px 0px;
+		width: 100%;
+		max-width: 180px;
+	}
+	.iconList li {
+		padding: 0 15px 10px;
+		width: 50%;
+	}
+	.iconList li .thumb {
+		width: 100%;
+	}
+	.snsHeader {
+		width: 90%;
+		margin: auto;
+	}
+	.Wallpaper {
+		width: 90%;
+		margin: auto;
+	}
+	.WallpaperSP .thumb img {
+		width: 50%;
+	}
+	.WallpaperBox .wpItem {
+		padding: 0;
+	}
+	.WallpaperBox .wpItem.WallpaperPC {
+		padding-top: 40px;
+	}
+	.DLbutton::after {
+		right: 1.5rem;
+	}
+	
+	
+	
+/*==============    books    ==============*/
+	#books {
+		background: url(/books/mare/img/books/books_bg_sp.png) no-repeat center;
+		background-size: cover;
+		margin-top: -65px;
+		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+
+	#books .ContentsBox {
+		width: 90%;
+		margin: auto;
+		max-width: 500px;
+	}
+	.booksBox {
+		padding-top: 30px;
+	}
+	.booksRight {
+		width: 100%;
+	}
+	.booksLeft .img {
+		width: 90%;
+		margin: auto;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.booksRight .titleBox {
+		width: 90%;
+		margin: auto;
+	}
+	.booksRight .titleBox img {
+		width: 35%;
+	}
+	.booksRight .overview {
+		width: 90%;
+		margin: auto;
+		padding-top: 10px;
+		font-size: 1.6rem;
+	}
+	.booksRight .sonota p {
+		font-size: 1.4rem;
+	}
+	.booksRight .sonota .title {
+		font-size: 1.6rem;
+	}
+	.booksRight .sonota {
+		margin-top: 30px;
+		padding: 20px 15px;
+	}
+	.booksRight .sonota .title.top {
+		margin-top: 20px;
+	}
+	
+	.booksBox .link {
+		font-size: 1.2rem;
+		text-align: center;
+		padding: 20px 0;
+		width: 70%;
+		margin: auto;
+	}
+	.booksBox .link li {
+		margin: 10px 0;
+	}
+	.booksBox .link li a {
+		padding: 10px 0;
+	}
+
+	
+	
+}
+
+/*          PC          */
+@media screen and (min-width:769px) {
+/*          Site Contents          */
+	#siteWrap {
+		min-width: 1200px;
+	}
+	
+	
+	/*==============    top    ==============*/
+	#top {
+		background: url(/books/mare/img/top/KVbg.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.movieBox {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	.movieBox:hover {
+		opacity: .7;
+	}
+	
+	/*==============    news    ==============*/
+	#news {
+		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
+		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	.topicsBox li {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	.topicsBox li:hover {
+		opacity: .7;
+	}
+	#news .slick-prev, #news .slick-next {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	#news .slick-prev:hover, #news .slick-next:hover {
+		opacity: 1;
+	}
+
+
+	
+	/*==============    introduction    ==============*/
+	#introduction {
+		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
+		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	.introTxtBox .txt06 img {
+		position: relative;
+		right: -3%;
+	}
+	
+	/*==============    story    ==============*/
+	#story {
+		background: url(/books/mare/img/story/story_bg_pc.jpg) no-repeat center;
+		background-size: cover;
+		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
+		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	.storyMovie {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	.storyMovie:hover {
+		opacity: .7;
+	}
+	
+	/*==============    character    ==============*/
+	#character {
+		background: url(/books/mare/img/character/chara_bg_pc.jpg) no-repeat center;
+		background-size: cover;
+		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
+		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	.characterNav li:hover {
+		opacity: .6;
+	}
+	#character .slick-prev, #character .slick-next {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	#character .slick-prev:hover, #character .slick-next:hover {
+		opacity: 1;
+	}
+
+	
+	/*==============    special    ==============*/
+	#special {
+		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
+		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+
+	.WallpaperBox {
+		display: -webkit-flex;
+		display: flex;
+	}
+	.DLbutton:hover {
+		background: rgba(28,171,173,1);
+		text-decoration: none;
+	}
+	
+/*==============    books    ==============*/
+	#books {
+		background: url(/books/mare/img/books/books_bg_pc.png) no-repeat center;
+		background-size: cover;
+		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
+		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-size: 100% auto;
+		mask-size: 100% auto;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	}
+	
+
+	.booksBox {
+		display: -webkit-flex;
+		display: flex;
+	}
+	.booksLeft {
+		padding-right: 85px;
+	}
+	.booksBox .link a:hover {
+		opacity: .6;
+		text-decoration: none;
+	}
+
+	
+	
+	
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

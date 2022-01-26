@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          google fonts          */
+
+/*          loading          */
+#overlay{position:fixed;width:100%;height:100%;text-align:center;background:#FFF;z-index:9999;}
+
+/*          Site Contents          */
+#siteWrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	height: auto !important;
+	min-height: 100%;
+	overflow: hidden;
+}
+.fade-in {
+	opacity: 0;
+	-webkit-transform: translateY(30px);
+	transform: translateY(30px);
+	-webkit-transition: .5s ease-out;
+	transition: .5s ease-out;
+	filter: blur(5px);
+}
+.fade-in.show {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	filter: blur(0);
+}
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*Navigation Button*/
+.navigationBtn {
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+	margin: auto;
+	background: #4dc6c9;
+	z-index: 100;
+	border-radius: 100%;
+}
+.naviBtn {
+	position: absolute;
+	display: -webkit-flex; display: flex;
+	-webkit-flex-direction: column; flex-direction: column;
+	-webkit-justify-content: space-between; justify-content: space-between;
+	-webkit-align-content: space-between; align-content: space-between;
+	width: 50%;
+	height: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.naviBtn span {
+	width: 100%;
+	height: 2px;
+	background-color: #FFF;
+	-webkit-transition: .3s ease-out; transition: .3s ease-out;
+}
+.naviBtn .naviBtn2 {
+	width: 75%;
+}
+.naviBtn .naviBtn3 {
+	width: 50%;
+}
+/*Navigation Button  --  show*/
+.show.navigationBtn {
+}
+.show .naviBtn .naviBtn1 {
+	-webkit-transform: translateY(11px) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
+}
+.show .naviBtn .naviBtn2 {
+	height: 0;
+}
+.show .naviBtn .naviBtn3 {
+	width: 100%;
+	-webkit-transform: translateY(-11px) rotate(-45deg);
+    transform: translateY(-11px) rotate(-45deg);
+}
+/*Navigation*/
+.navigationWrap {
+	position: fixed;
+	width: 100%;
+	height: 330px;
+	top: 0;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 99;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+.navigationList {
+	padding: 90px 100px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.navigationList>li>a {
+	display: block;
+	margin: 0 45px 45px 0;
+	position: relative;
+}
+.navigationList>li>a img {
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+.navigationList>li>a:hover {
+	text-decoration: none;
+}
+.navigationList>li>a:hover img {
+	opacity: 0;
+}
+.navigationList>li>a:hover .hover {
+	opacity: 1;
+}
+.navigationList>li>a .hover {
+	position: absolute;
+	left: 0;
+	opacity: 0;
+}
+
+
+/*Navigation  --  show*/
+.show.navigationWrap {
+	opacity: 1;
+	visibility: visible;
+}
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Footer Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+.footerWrap {
+	-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
+	mask-image: url(/books/mare/img/mask/bg01.svg);
+	-webkit-mask-size: 100% auto;
+	mask-size: 100% auto;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	margin-top: -150px;
+}
+.ctt_footer {width: 1200px;margin: auto;padding: 300px 0 150px;}
+.footerContent {
+	background-color: #efeeee;
+	color: #666666;
+}
+
+.footer_wrap {
+	display: -webkit-flex; display: flex;
+	width: 500px;
+	margin: auto;
+}
+.footerLeft {
+	padding-right: 80px;
+}
+
+/*social*/
+.socialList {
+	display: -webkit-flex; display: flex;
+	padding-bottom: 30px;
+}
+.socialList>li {
+	margin-right: 15px;
+}
+.socialList>li>a {
+	display: block;
+	font-size: 3rem;
+	border-radius: 3rem;
+	text-decoration: none;
+	overflow: hidden;
+	color: #bbfeff;
+	background: none;
+	border: 1px solid #bbfeff;
+	padding: 2px;
+}
+.socialList>li>a:hover {
+	text-decoration: none;
+}
+.icon-tw {color: #FFF;background: #1da1f2;}
+.icon-fb, .icon-fbc {color: #FFF;background: #3b579d;}
+.icon-li {color: #FFF;background: #00c300;}
+/*banner*/
+.bannerList {
+	
+}
+.bannerList .ka_esumabunko a {
+	margin: 0px 0;
+	width: 70%;
+}
+.bannerList li {
+	width: 100%;
+	padding: 10px 3px;
+}
+.bannerList li a {
+	display: block;
+}
+.copyright {
+	color: #bbfeff;
+	font-size: 1.4rem;
+	padding: 10px 3px;
+}
+
+
+
+.pagetop {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 20;
+	transform: translateY(150px);
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+	opacity: 0;
+}
+.pagetop.show {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+
+
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Media Screen     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          SP          */
+@media screen and (max-width:768px) {
+/*  
+font-size設定
+PC      SP
+1.0rem->2.2vw
+1.4rem->2.6vw
++1.2
+  */
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Site Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*          Site Contents          */
+	
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Header Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+/*Navigation Button*/
+	.navigationBtn_box {
+		width: 14vw;
+		height: 13vw;
+		left: unset;
+		right: 15px;
+	}
+	.naviBtn span {
+		height: 3px;
+	}
+	.show .naviBtn .naviBtn1 {
+		-webkit-transform: translateY(8px) rotate(-45deg);
+		        transform: translateY(8px) rotate(-45deg);
+	}
+	.show .naviBtn .naviBtn3 {
+		-webkit-transform: translateY(-8px) rotate(45deg);
+		        transform: translateY(-8px) rotate(45deg);
+	}
+/*Navigation*/
+	.navigationBox {
+		background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+		background-position: top;
+		-webkit-mask-image: url(/books/mare/img/mask/menu_sp.svg);
+		mask-image: url(/books/mare/img/mask/menu_sp.svg);
+		-webkit-mask-size: cover;
+		mask-size: cover;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		-webkit-mask-position: bottom;
+	}
+	.navigationWrap {
+		height: 100%;
+	}
+	.navigationList {
+		width: 60%;
+		margin: auto;
+		padding: 60px 0 150px;
+		max-width: 300px;
+	}
+	.navigationBtn {
+		right: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.navigationList>li>a {
+		margin: 20px auto;
+	}
+	
+	
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Footer Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+	.footerWrap {
+		background: url(/books/mare/img/footer_bg_sp.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.footerWrap {
+		margin-top: -80px;
+	}
+	.pagetop {
+		bottom: 10px;
+		right: 20px;
+		text-align: right;
+	}
+	.pagetop img {
+		width: 10vw;
+		min-width: 60px;
+	}
+	.ctt_footer {
+		width: 100%;
+		padding: 150px 0 100px;
+	}
+	.footer_wrap {
+		width: 80%;
+		max-width: 500px;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+	}
+	.footerLeft {
+		padding-right: 0;
+		width: 30%;
+	}
+	.footerRight {
+		width: 60%;
+	}
+	.bannerList li.ka-esumabunko {
+		width: 80%
+	}
+	
+}
+
+/*          PC          */
+@media screen and (min-width:769px) {
+/*          Site Contents          */
+	#siteWrap {
+		min-width: 1200px;
+	}
+	.ContentsBox {
+		width: 1200px;
+		margin: auto;
+	}
+	.ctt_w1200 {width: 1200px;margin: auto;}
+	
+	.navigationBox {
+		width: 1200px;
+		margin: auto;
+	}
+
+	
+	.navigationWrap {
+		-webkit-mask-image: url(/books/mare/img/mask/menu_pc.svg);
+		mask-image: url(/books/mare/img/mask/menu_pc.svg);
+		-webkit-mask-size: cover;
+		mask-size: cover;
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		-webkit-mask-position: bottom;
+		mask-position: bottom;
+		background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+		background-position: top;
+	}
+	
+	.pagetop.show:hover {
+		transform: translateY(-20px);
+	}
+
+	
+	.footerWrap {
+		background: url(/books/mare/img/footer_bg_pc.jpg) no-repeat center;
+		background-size: cover;
+	}
+	
+	.footerRight li {
+		-webkit-transition: .3s ease-out;
+		transition: .3s ease-out;
+	}
+	.footerRight li:hover {
+		opacity: .6;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
