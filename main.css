@@ -359,7 +359,7 @@ PC      SP
 		mask-repeat: no-repeat;
 		-webkit-mask-position: bottom;
 		mask-position: bottom;
-		background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+		background: url(/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
 		background-position: top;
 	}
 	
