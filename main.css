@@ -140,8 +140,8 @@
 }
 /*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Footer Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 .footerWrap {
-	-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
-	mask-image: url(/books/mare/img/mask/bg01.svg);
+	-webkit-mask-image: url(/bg01.svg);
+	mask-image: url(/bg01.svg);
 	-webkit-mask-size: 100% auto;
 	mask-size: 100% auto;
 	-webkit-mask-repeat: no-repeat;
@@ -263,10 +263,10 @@ PC      SP
 	}
 /*Navigation*/
 	.navigationBox {
-		background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+		background: url(/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
 		background-position: top;
-		-webkit-mask-image: url(/books/mare/img/mask/menu_sp.svg);
-		mask-image: url(/books/mare/img/mask/menu_sp.svg);
+		-webkit-mask-image: url(/menu_sp.svg);
+		mask-image: url(/menu_sp.svg);
 		-webkit-mask-size: cover;
 		mask-size: cover;
 		-webkit-mask-repeat: no-repeat;
@@ -294,7 +294,7 @@ PC      SP
 	
 /*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-     Footer Contents     -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 	.footerWrap {
-		background: url(/books/mare/img/footer_bg_sp.jpg) no-repeat center;
+		background: url(/footer_bg_sp.jpg) no-repeat center;
 		background-size: cover;
 	}
 	.footerWrap {
@@ -351,8 +351,8 @@ PC      SP
 
 	
 	.navigationWrap {
-		-webkit-mask-image: url(/books/mare/img/mask/menu_pc.svg);
-		mask-image: url(/books/mare/img/mask/menu_pc.svg);
+		-webkit-mask-image: url(/menu_pc.svg);
+		mask-image: url(/menu_pc.svg);
 		-webkit-mask-size: cover;
 		mask-size: cover;
 		-webkit-mask-repeat: no-repeat;
@@ -369,7 +369,7 @@ PC      SP
 
 	
 	.footerWrap {
-		background: url(/books/mare/img/footer_bg_pc.jpg) no-repeat center;
+		background: url(/footer_bg_pc.jpg) no-repeat center;
 		background-size: cover;
 	}
 	
