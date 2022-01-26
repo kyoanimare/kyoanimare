@@ -1220,7 +1220,7 @@
 	#character {
 		background: url(/chara_bg_pc.jpg) no-repeat center;
 		background-size: cover;
-		-webkit-mask-image: url(k/bg02.svg);
+		-webkit-mask-image: url(/bg02.svg);
 		mask-image: url(/bg02.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
@@ -1241,7 +1241,7 @@
 	
 	/*==============    special    ==============*/
 	#special {
-		-webkit-mask-image: url/bg01.svg);
+		-webkit-mask-image: url(/bg01.svg);
 		mask-image: url(/bg01.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
