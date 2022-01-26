@@ -51,7 +51,7 @@
 
 /*==============    news    ==============*/
 #news {
-	background: url(/books/mare/img/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
+	background: url(/patternBg.png) ,linear-gradient(135deg,#5ad6d2 0%,#84e3f0 60%,#6dcfe3 100%);
 	background-position: top;
 	margin-top: -150px;
 }
@@ -233,7 +233,7 @@
 .introTxtBox .txt04 {
 	padding: 120px 0;
 	margin: -15px 0 -35px;
-	background: url(/books/mare/img/introduction/introImg02.png) no-repeat;
+	background: url(/introImg02.png) no-repeat;
 	background-position: 48% 20%;
 	background-size: auto 90%;
 }
@@ -242,12 +242,12 @@
 }
 .introTxtBox .txt06 {
 	padding: 130px 0;
-	background: url(/books/mare/img/introduction/introImg03.jpg) no-repeat center;
+	background: url(/introImg03.jpg) no-repeat center;
 }
 
 /*==============    story    ==============*/
 #story {
-	background: url(/books/mare/img/story/story_bg_pc.jpg) no-repeat center;
+	background: url(/story_bg_pc.jpg) no-repeat center;
 	background-size: cover;
 }
 #story {
@@ -306,7 +306,7 @@
 	width: 592px;
 	position: absolute;
 	z-index: 1;
-	background: url(/books/mare/img/character/characterBg02.png) no-repeat;
+	background: url(/characterBg02.png) no-repeat;
 	right: 50px;
 	top: 170px;
 	padding: 150px 0 200px;
@@ -314,7 +314,7 @@
 	transition: .3s ease-out;
 }
 .characterTxtBox#mare {
-	background: url(/books/mare/img/character/characterBg01.png) no-repeat;
+	background: url(/characterBg01.png) no-repeat;
 }
 .characterTxtBox .txtBox {
 	
@@ -435,7 +435,7 @@
 
 /*==============    special    ==============*/
 #special {
-	background: url(/books/mare/img/patternBg.png) ,linear-gradient(130deg,#6dcfe3 0%,#84e3f0 40%,#5ad6d2 100%);
+	background: url(/patternBg.png) ,linear-gradient(130deg,#6dcfe3 0%,#84e3f0 40%,#5ad6d2 100%);
 	background-position: top;
 	margin-top: -150px;
 }
@@ -677,8 +677,8 @@
 /*==============    news    ==============*/
 	#news {
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
-		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-image: url(/bg01sp.svg);
+		mask-image: url(/bg01sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -763,8 +763,8 @@
 	}
 	#introduction {
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
-		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-image: url(/bg02sp.svg);
+		mask-image: url(/bg02sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -839,8 +839,8 @@
 /*==============    story    ==============*/
 	#story {
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
-		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-image: url(/bg01sp.svg);
+		mask-image: url(/bg01sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -879,11 +879,11 @@
 	
 /*==============    character    ==============*/
 	#character {
-		background: url(/books/mare/img/character/chara_bg_sp.jpg) no-repeat center;
+		background: url(/chara_bg_sp.jpg) no-repeat center;
 		background-size: cover;
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
-		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-image: url(/bg02sp.svg);
+		mask-image: url(/bg02sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -996,8 +996,8 @@
 /*==============    special    ==============*/
 	#special {
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg01sp.svg);
-		mask-image: url(/books/mare/img/mask/bg01sp.svg);
+		-webkit-mask-image: url(/bg01sp.svg);
+		mask-image: url(/bg01sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1063,11 +1063,11 @@
 	
 /*==============    books    ==============*/
 	#books {
-		background: url(/books/mare/img/books/books_bg_sp.png) no-repeat center;
+		background: url(/books_bg_sp.png) no-repeat center;
 		background-size: cover;
 		margin-top: -65px;
-		-webkit-mask-image: url(/books/mare/img/mask/bg02sp.svg);
-		mask-image: url(/books/mare/img/mask/bg02sp.svg);
+		-webkit-mask-image: url(/bg02sp.svg);
+		mask-image: url(/bg02sp.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1146,7 +1146,7 @@
 	
 	/*==============    top    ==============*/
 	#top {
-		background: url(/books/mare/img/top/KVbg.jpg) no-repeat center;
+		background: url(/KVbg.jpg) no-repeat center;
 		background-size: cover;
 	}
 	.movieBox {
@@ -1159,8 +1159,8 @@
 	
 	/*==============    news    ==============*/
 	#news {
-		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
-		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-image: url(/bg01.svg);
+		mask-image: url(/bg01.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1185,8 +1185,8 @@
 	
 	/*==============    introduction    ==============*/
 	#introduction {
-		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
-		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-image: url(/bg02.svg);
+		mask-image: url(/bg02.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1199,10 +1199,10 @@
 	
 	/*==============    story    ==============*/
 	#story {
-		background: url(/books/mare/img/story/story_bg_pc.jpg) no-repeat center;
+		background: url(/story_bg_pc.jpg) no-repeat center;
 		background-size: cover;
-		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
-		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-image: url(/bg01.svg);
+		mask-image: url(/bg01.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1218,10 +1218,10 @@
 	
 	/*==============    character    ==============*/
 	#character {
-		background: url(/books/mare/img/character/chara_bg_pc.jpg) no-repeat center;
+		background: url(/chara_bg_pc.jpg) no-repeat center;
 		background-size: cover;
-		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
-		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-image: url(k/bg02.svg);
+		mask-image: url(/bg02.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1241,8 +1241,8 @@
 	
 	/*==============    special    ==============*/
 	#special {
-		-webkit-mask-image: url(/books/mare/img/mask/bg01.svg);
-		mask-image: url(/books/mare/img/mask/bg01.svg);
+		-webkit-mask-image: url/bg01.svg);
+		mask-image: url(/bg01.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
@@ -1260,10 +1260,10 @@
 	
 /*==============    books    ==============*/
 	#books {
-		background: url(/books/mare/img/books/books_bg_pc.png) no-repeat center;
+		background: url(/books_bg_pc.png) no-repeat center;
 		background-size: cover;
-		-webkit-mask-image: url(/books/mare/img/mask/bg02.svg);
-		mask-image: url(/books/mare/img/mask/bg02.svg);
+		-webkit-mask-image: url(/bg02.svg);
+		mask-image: url(/bg02.svg);
 		-webkit-mask-size: 100% auto;
 		mask-size: 100% auto;
 		-webkit-mask-repeat: no-repeat;
